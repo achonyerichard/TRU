@@ -1,0 +1,238 @@
+body{
+    background-image:url('https://images.pexels.com/photos/4258936/pexels-photo-4258936.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    -webkit-box-shadow: inset 10px 10px 214px 68px rgba(0,0,0,0.76);
+    -moz-box-shadow: inset 10px 10px 214px 68px rgba(0,0,0,0.76);
+    box-shadow: inset 10px 10px 214px 68px rgba(0,0,0,0.76);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn{
+     background-image:url('https://images.pexels.com/photos/4258936/pexels-photo-4258936.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    -webkit-box-shadow: inset 10px 10px 214px 68px rgba(0,0,0,0.76);
+    -moz-box-shadow: inset 10px 10px 214px 68px rgba(0,0,0,0.76);
+    box-shadow: inset 10px 10px 214px 68px rgba(0,0,0,0.76);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.img1{
+  background-image: url("https://images.pexels.com/photos/6717979/pexels-photo-6717979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+}
+
+.img2{
+    background-image: url('https://images.pexels.com/photos/7346634/pexels-photo-7346634.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size:cover;
+    background-position: center;
+}
+.img3{
+    background-image: url('https://images.pexels.com/photos/5325625/pexels-photo-5325625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img4{
+    background-image:url(Richard.Jpg);
+}
+.img5{
+    background-image: url(richard2.jpg);
+    background-position: center;
+}
+.img6{
+    background-image: url('https://images.pexels.com/photos/6249107/pexels-photo-6249107.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+}
+.home .carousel-item{
+    min-height: 70vh;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.home .carousel-item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+.home .carousel-item .datext{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home .carousel-item h2{
+    font-style: 80px;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+.home .carousel-item p{
+    font-style: 30px;
+    color: #eeeeee;
+    margin: 0;
+}
+
+.home .carousel-item.active h2{
+    animation: fadeInLeft 0.5s ease forwards;
+}
+.home .carousel-item.active p{
+    animation: fadeInRight 0.5s ease forwards;
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.home .carousel-controls{
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+.home .carousel-indicators{
+    position: relative;
+    margin: 0;
+}
+.home .carousel-indicators button{
+    height: 70px;
+    width: 70px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+    transition: all 0.3s linear ease;
+}
+.home .carousel-indicators button.active{
+    border-color: #ffffff;
+    transform: scale(1.2);
+}
+
+.img1-round{
+    background-image: url('https://images.pexels.com/photos/6717979/pexels-photo-6717979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+.img2-round{
+    background-image: url('https://images.pexels.com/photos/7346634/pexels-photo-7346634.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+}
+.img3-round{
+    background-image: url('https://images.pexels.com/photos/5325625/pexels-photo-5325625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+}
+.img4-round{
+    background-image: url(Richard.Jpg);
+    background-position: center;
+}
+.img5-round{
+    background-image: url(richard2.jpg);
+    background-position: center;
+}
+.img6-round{
+    background-image: url('https://images.pexels.com/photos/6249107/pexels-photo-6249107.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    
+}
+.jumbotron{
+    height: 30vh;
+    background-image: url('https://images.pexels.com/photos/5935229/pexels-photo-5935229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: inset 10px 10px 212px 63px rgba(0,0,0,0.95);
+    -moz-box-shadow: inset 10px 10px 212px 63px rgba(0,0,0,0.95);
+    box-shadow: inset 10px 10px 212px 63px rgba(0,0,0,0.95);
+    font-weight: 700;
+}
+.imgx{
+    height: 50px;
+    max-width: 50px;
+}
+
+
+    /* padding-top: 50px; */
+nav{
+    font-weight: 700;
+}
+.vert{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.services{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.card{
+    border: none;
+}
+.card-body{
+    background-image: url('https://images.pexels.com/photos/4258936/pexels-photo-4258936.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    -webkit-box-shadow: inset 10px 10px 256px 117px rgba(0,0,0,0.76);
+    -moz-box-shadow: inset 10px 10px 256px 117px rgba(0,0,0,0.76);
+    box-shadow: inset 10px 10px 256px 117px rgba(0,0,0,0.76);
+    color: ivory;
+}
+
+
+.foot{
+   padding-left: 5rem;
+   background-color: black;
+   padding-top: 5rem;
+   width: 100%;
+ }
+ .logos{
+     padding-bottom: 1 rem;
+ }
+ 
+/* responsive */
+
+@media  screen and (max-width:767px){
+    .home .carousel-indicators button{
+        height: 60px;
+        width: 60px;
+    }
+    .home .carousel-item h2{
+        font-size: 45px;
+    }
+    .home .carousel-item p{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:425px) {
+     footer {
+        padding-left: 1rem !important;   
+     }
+     .logos{
+         padding-bottom: 1rem;
+     }
+     .lang{
+         padding-bottom: 2rem;
+     }
+ }
